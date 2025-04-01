@@ -21,7 +21,7 @@ const SignUp = () => {
   };
 
   return (
-    <div>
+    <div className='signup'>
       <h2>Sign Up</h2>
       <form onSubmit={handleSubmit}>
         <input
