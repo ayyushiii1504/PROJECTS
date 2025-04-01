@@ -1,0 +1,415 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    height: 80vh;
+    background-image: url("abstract-colorful-geometric-shape-background-modern-color-background-for-your-website-vector.jpg");
+    background-size: cover;
+    display: grid;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E4E2;
+    border-radius: 2rem 2rem;
+    justify-content: center;
+    margin: 1rem 2rem 1rem 2rem;
+
+}
+
+.navbar {
+    padding: 0;
+    margin: 0.4rem 0rem 0.4rem 2.2rem;
+    /* background-color:#e8e9eb; */
+    height: 16%;
+    justify-self: center;
+    border-radius: 2rem;
+    width: 97%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header {
+    padding: 0;
+    background-color: rgb(26, 193, 231);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    height: 12%;
+    margin-bottom: 1rem;
+    display: flex;
+
+}
+
+.navv {
+    color: #F5F5DC;
+    font-size: 1.3rem;
+    box-shadow: 6px 5px 5px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 5px 5px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 5px 5px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 1px 18px -2px rgba(0, 0, 0, 0.57);
+    background: #1C6EA4;
+    display: flex;
+    justify-content: space-evenly;
+    width: 11%;
+    height: 85%;
+    margin-top: 0;
+    padding-left: 0.3rem;
+    border-radius: 1rem;
+    margin-right: 1.5rem;
+    transition: transform 0.1s ease;
+}
+
+.l1 {
+    margin: 0;
+    margin-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 2rem;
+    height: 100%;
+   background-color: #289DEA;
+}
+
+.navv:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.navlink {
+    padding-top: 1rem;
+
+}
+
+input {
+
+    background-color: rgba(200, 198, 198, 0.665);
+    box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.5);
+}
+
+select {
+    font-size: 1.6rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 60%;
+    padding-left: 1rem;
+    padding-right: 1.5em;
+}
+
+.dropper {
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.85rem;
+
+    display: flex;
+
+}
+
+.switch {
+    color: #1F87FF;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    width: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    padding-top: 0.375rem;
+    justify-content: center;
+}
+
+.input {
+    width: 100%;
+    height: 3.5rem;
+    border-radius: 1.25rem;
+    border: 1px solid black;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.head1 {
+
+    padding: 0.8rem 0 0 1.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    border-top-left-radius: 2rem;
+    width: 13%;
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px solid rgb(34, 52, 216);
+}
+
+.company_icon {
+    padding-right: 1.5rem;
+}
+
+.holder {
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+.head2 {
+    margin-left: 3rem;
+    width: 40%;
+}
+
+
+.mainbox {
+    background-color: #E5E4E2;
+    height: 85%;
+    display: flex;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+aside {
+
+    width: 20%;
+    float: left;
+    height: 70vh;
+
+    background-color: #80a8e2;
+    border-radius: 1rem;
+    margin: 0rem 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu {
+    list-style-type: none;
+    overflow-y: auto;
+}
+
+.menu-item {
+    width: 90%;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+    opacity: 0.75;
+
+}
+
+.menu-heading {
+    opacity: 1;
+    background-color: #ADD8E6;
+    -webkit-box-shadow: inset 2px 2px 2px 2px #1C6EA4, inset 11px 11px 2px 0px #2285C7, inset 20px 20px 2px 1px #289DEA, inset 29px 29px 2px 1px #57BBEA, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: inset 2px 2px 2px 2px #1C6EA4, inset 11px 11px 2px 0px #2285C7, inset 20px 20px 2px 1px #289DEA, inset 29px 29px 2px 1px #57BBEA, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    width: 100%;
+    box-shadow: 6px 5px 5px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 5px 5px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 5px 5px 2px rgba(0, 0, 0, 0.75);
+    display: flex;
+    margin-bottom: 0rem;
+    padding: 0.5rem 0 0 1rem;
+    
+}
+
+
+
+.rep {
+    margin-top: 0.6rem;
+
+}
+
+.rep-i {
+    margin-left: 0.5em;
+    margin-right: 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+}
+
+section {
+
+    border-radius: 1rem;
+    display: flex;
+    background-color: #E5E4E2;
+    width: 80%;
+    margin: 0rem 1.5rem 1.5rem 0rem;
+
+}
+
+.minibox {
+    width: 50%;
+    border-radius: 1rem;
+    float: left;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.mini1 {
+    margin-right: 1rem;
+}
+
+.box2 {
+    padding: 0.5rem;
+    background-color: white;
+}
+
+.box1 {
+    height: 17.5%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.infobox {
+
+    box-shadow: inset 0 -5em 5em rgb(133, 227, 240),
+        0 0 0 2px white,
+        0.3em 0.3em 1em white;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box2 {
+    padding-top: 0.1rem 0rem 0 1rem;
+    height: 65%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: inset 0 -0em 9em rgb(57, 153, 165);
+
+}
+
+.info1 {
+    margin-bottom: 0.5rem;
+}
+
+.info2 {
+    margin-top: 0.5rem;
+}
+
+.infor {
+    margin-right: 0.5rem;
+}
+
+.infol {
+    margin-left: 0.5rem;
+}
+
+
+
+.charthead {
+    display: flex;
+
+}
+
+.ch1 {
+    width: 50%;
+    padding-left: 2rem;
+}
+
+.ch2 {
+    padding-right: 2rem;
+    width: 75%;
+    text-align: right;
+}
+
+.light {
+    opacity: 0.8;
+}
+
+.written {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#chart_div {
+    margin: 0;
+    height: 80%;
+}
+
+#curve_chart {
+    margin: 0;
+    height: 80%;
+}
+
+.bi {
+    font-size: 2.4rem;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.menu-boxes {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    background-color: #80a8e2;
+    /* Light background for the sidebar */
+    overflow-y: hidden;
+    transition: overflow 0.3s ease;
+}
+
+.menu-item {
+    width: 90%;
+    padding: 0.8rem;
+    margin: 1rem auto;
+    /* Center the menu item */
+    font-size: 1.3rem;
+    opacity: 0.85;
+
+    background-color: #e3f2fd;
+    /* Soft blue background */
+    border-left: 5px solid #1e88e5;
+    /* Darker blue left border */
+    border-radius: 8px;
+    /* Rounded corners */
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateX(5px);
+    /* Slight movement on hover */
+    background-color: #bbdefb;
+    /* Slightly darker blue on hover */
+    opacity: 1;
+    color: black;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+/* Active or selected item style */
+.menu-item.active {
+    background-color: #2456df;
+    color: ivory;
+    font-size: 1.45rem;
+    border-left-color: #1565c0;
+    /* Darker left border */
+    transform: translateX(10px);
+    opacity: 1;
+}
+
+/* Optional: Styling for the scrollbar */
+.menu-boxes::-webkit-scrollbar {
+    width: 8px;
+}
+
+.menu-boxes::-webkit-scrollbar-thumb {
+    background-color: #1e88e5;
+    /* Blue color for the scrollbar thumb */
+    border-radius: 10px;
+}
+
+.menu-boxes::-webkit-scrollbar-track {
+    background-color: #e3f2fd;
+    /* Light blue background for the scrollbar track */
+}
